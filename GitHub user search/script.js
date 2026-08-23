@@ -6,7 +6,7 @@ searchBtn.addEventListener("click", () => {
     const username = document.getElementById("username").value;
 
     if(username === ""){
-        result.innerHTML = "<p class='error'>Please enter a username.</p>";
+        result.innerHTML = "<p class='error'>Please enter a username.</p>;
         return;
     }
 
